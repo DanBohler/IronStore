@@ -1,10 +1,75 @@
+h1 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 100;
+  margin: 0;
+}
+
+tr {
+  margin: 10px 0;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
+
+th {
+  font-weight: 400;
+}
+
+td {
+  font-weight: 200;
+}
+
+thead {
+  background-color: #e6e6e6;
+}
+
+thead > tr {
+  border:none;
+}
+
+tbody tr {
+  padding-bottom: 10px;
+}
+
 .App {
   text-align: center;
+  position: relative;
+  background: #f3f3f3;
+  border: black solid 1px;
+  width: 80%;
+  height: 800px;
+  margin: 30px auto;
+  border-radius: 8px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.input-checkbox {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+input[type="text"] {
+  width: 70%;
+  margin: 10px 0;
+  height: 25px;
+  border-radius: 7px;
+  border: solid black 1px;
+  padding: 3px 10px;
+}
+
+.table-container {
+  width: 90%;
+  position: relative;
+  margin: 0 auto 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
